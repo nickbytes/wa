@@ -8,7 +8,7 @@
  *
  */
 
-
+@import 'normalize.css';
 @import 'basscss-basic';
 
 /* Basscss Modules */
@@ -23,6 +23,7 @@
 @import 'basscss-position';
 @import 'basscss-border';
 @import 'basscss-hide';
+@import 'basscss-addons/modules/background-colors';
 
 
 /* Optional Modules (not included in Basscss by default) */
@@ -83,4 +84,24 @@
 
 :root {
   --border-width: 4px;
+}
+
+.container {
+  max-width: 41em;
+}
+
+.bg-tan {
+  background-color: #f2ffe6;
+}
+
+.code, code {
+    font-family: Consolas,monaco,monospace;
+}
+
+.dashed {
+  border: 2px dashed black;
+}
+
+.shadow {
+  box-shadow: -2px 2px 8px #888888;
 }
